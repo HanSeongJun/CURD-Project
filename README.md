@@ -23,3 +23,21 @@ Ver_Demo/
 │   │   └── resources/                        # 리소스 파일들
 │   │   │   └── application.yml               
 └── build.gradle                              # 백엔드 빌드 설정 파일
+```
+
+### 프로젝트 세팅
+`application.yml`
+```
+spring:
+  datasource:
+    driver-class-name: [DB Class Name]
+    url: [본인의 mysql-rds-endpoint]
+    password: [DB password]
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+```
