@@ -45,6 +45,11 @@ spring:
 ### 패키지 실행
 ```
 >> cd C:\Ver_Demo
+
+>> .\gradlew build
+
 >> cd build/libs
->> java -jar demo-web-0.0.1-SNAPSHOT.jar
+>> dir
+
+>> java -jar Ver_Demo-0.0.1-SNAPSHOT.jar
 ```
