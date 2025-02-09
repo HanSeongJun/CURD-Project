@@ -41,3 +41,10 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
 ```
+
+### 패키지 실행
+```
+>> cd C:\Ver_Demo
+>> cd build/libs
+>> java -jar demo-web-0.0.1-SNAPSHOT.jar
+```
