@@ -79,3 +79,8 @@ task copyReactBuildFiles(type: Copy) {
 	from "$frontendDir/build"
 	into "$projectDir/src/main/resources/static"
 }
+
+tasks.named('test') {
+	useJUnitPlatform()
+	jvmArgs '-Xshare:off' // JVM 아규먼트 설정
+}
