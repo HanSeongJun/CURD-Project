@@ -13,12 +13,14 @@ Ver_Demo/
 │   │   │   └── package.json                  # 프론트엔드 의존성 및 스크립트
 │   │   │
 │   │   ├── java/                             # 백엔드 관련 파일들
-│   │   │   └──MyCRUD
-│   │   │   │   └──Ver_Demo
-│   │   │   │   │   │   ├── controller/       # 컨트롤러
-│   │   │   │   │   │   ├── service/          # 서비스
-│   │   │   │   │   │   ├── repository/       # 리포지토리
-│   │   │   │   │   │   └── model/            # 모델
+│   │   │   └── MyCRUD
+│   │   │   │   └── Ver_Demo
+│   │   │   │   │   └── User                  # 회원 서비스
+│   │   │   │   │   │   ├── Controller/       # 컨트롤러
+│   │   │   │   │   │   ├── Service/          # 서비스
+│   │   │   │   │   │   ├── Repository/       # 리포지토리
+│   │   │   │   │   │   ├── Model/            # 모델
+│   │   │   │   │   │   └── DTO/              # Dto
 │   │   │   
 │   │   └── resources/                        # 리소스 파일들
 │   │   │   └── application.yml               
