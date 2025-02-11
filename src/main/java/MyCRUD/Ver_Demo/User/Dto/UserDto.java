@@ -2,10 +2,12 @@ package MyCRUD.Ver_Demo.User.Dto;
 
 import lombok.Data;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
+@RequiredArgsConstructor
 public class UserDto {
 
     private String username;

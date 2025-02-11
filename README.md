@@ -1,4 +1,5 @@
 # CURD-Project
+[API 명세서](https://tundra-dracopelta-e77.notion.site/API-197725ff5fd5805cbd68ec64c3a76201)
 
 ### 패키지 구조
 ```
