@@ -10,6 +10,11 @@ import java.util.List;
 @RestController
 public class HelloController {
 
+    @GetMapping("/home")
+    public String home() {
+        return "<h1>Hello World</h1>";
+    }
+
     @GetMapping("/api/Ver_Demo")
     public List<String> Hello() {
         return Arrays.asList("리액트 스프링 ", "연결 성공");
